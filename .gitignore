@@ -14,6 +14,9 @@ __pycache__/
 *stats
 *.scal
 *.rxcal
+*.avg
+*.edi
+*.z3d
 
 # C extensions
 *.so

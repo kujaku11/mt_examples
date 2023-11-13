@@ -1,0 +1,1601 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.1">
+  <Source>ObsPy 1.3.0</Source>
+  <Module>ObsPy 1.3.0</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2022-09-28T23:59:56.154065Z</Created>
+  <Network code="EM" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="One">
+    <Identifier type="DOI">None</Identifier>
+    <Comment subject="mt.survey.acquired_by.name">
+      <Value>M T</Value>
+    </Comment>
+    <Comment subject="mt.survey.id">
+      <Value>One</Value>
+    </Comment>
+    <Station code="mt01" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="mt01">
+      <Comment subject="mt.station.data_type">
+        <Value>BBMT</Value>
+      </Comment>
+      <Comment subject="mt.station.location.declination.model">
+        <Value>WMM</Value>
+      </Comment>
+      <Comment subject="mt.station.orientation.reference_frame">
+        <Value>geographic</Value>
+      </Comment>
+      <Comment subject="mt.station.provenance.software.author">
+        <Value>none</Value>
+      </Comment>
+      <Comment subject="mt.station.run_list">
+        <Value>mt01a, mt01b</Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Latitude unit="DEGREES">0.0</Latitude>
+      <Longitude unit="DEGREES">0.0</Longitude>
+      <Elevation unit="METERS">0.0</Elevation>
+      <Site>
+        <Name/>
+      </Site>
+      <Equipment resourceId="mt.run.id:mt01a">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Equipment resourceId="mt.run.id:mt01b">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Operator>
+        <Agency> </Agency>
+        <Contact>
+          <Name>none</Name>
+        </Contact>
+        <WebSite/>
+      </Operator>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <TerminationDate>2021-01-01T12:00:00.000000Z</TerminationDate>
+      <Channel code="QQN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ex" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QQE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ey" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hx" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hy" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFZ" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hz" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QKN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="tx" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="mt02" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="mt02">
+      <Comment subject="mt.station.data_type">
+        <Value>BBMT</Value>
+      </Comment>
+      <Comment subject="mt.station.location.declination.model">
+        <Value>WMM</Value>
+      </Comment>
+      <Comment subject="mt.station.orientation.reference_frame">
+        <Value>geographic</Value>
+      </Comment>
+      <Comment subject="mt.station.provenance.software.author">
+        <Value>none</Value>
+      </Comment>
+      <Comment subject="mt.station.run_list">
+        <Value>mt01a, mt01b</Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Latitude unit="DEGREES">0.0</Latitude>
+      <Longitude unit="DEGREES">0.0</Longitude>
+      <Elevation unit="METERS">0.0</Elevation>
+      <Site>
+        <Name/>
+      </Site>
+      <Equipment resourceId="mt.run.id:mt01a">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Equipment resourceId="mt.run.id:mt01b">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Operator>
+        <Agency> </Agency>
+        <Contact>
+          <Name>none</Name>
+        </Contact>
+        <WebSite/>
+      </Operator>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <TerminationDate>2021-01-01T12:00:00.000000Z</TerminationDate>
+      <Channel code="QQN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ex" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QQE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ey" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hx" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hy" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFZ" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hz" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QKN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="tx" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>10.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_01">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>10.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+  <Network code="EM" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="Two">
+    <Identifier type="DOI">None</Identifier>
+    <Comment subject="mt.survey.acquired_by.name">
+      <Value>M T</Value>
+    </Comment>
+    <Comment subject="mt.survey.id">
+      <Value>Two</Value>
+    </Comment>
+    <Station code="mt01" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="mt01">
+      <Comment subject="mt.station.data_type">
+        <Value>BBMT</Value>
+      </Comment>
+      <Comment subject="mt.station.location.declination.model">
+        <Value>WMM</Value>
+      </Comment>
+      <Comment subject="mt.station.orientation.reference_frame">
+        <Value>geographic</Value>
+      </Comment>
+      <Comment subject="mt.station.provenance.software.author">
+        <Value>none</Value>
+      </Comment>
+      <Comment subject="mt.station.run_list">
+        <Value>mt01a, mt01b</Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Latitude unit="DEGREES">0.0</Latitude>
+      <Longitude unit="DEGREES">0.0</Longitude>
+      <Elevation unit="METERS">0.0</Elevation>
+      <Site>
+        <Name/>
+      </Site>
+      <Equipment resourceId="mt.run.id:mt01a">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Equipment resourceId="mt.run.id:mt01b">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Operator>
+        <Agency> </Agency>
+        <Contact>
+          <Name>none</Name>
+        </Contact>
+        <WebSite/>
+      </Operator>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <TerminationDate>2021-01-01T12:00:00.000000Z</TerminationDate>
+      <Channel code="QQN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ex" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QQE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ey" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hx" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hy" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFZ" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hz" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QKE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ty" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+    <Station code="mt02" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="mt02">
+      <Comment subject="mt.station.data_type">
+        <Value>BBMT</Value>
+      </Comment>
+      <Comment subject="mt.station.location.declination.model">
+        <Value>WMM</Value>
+      </Comment>
+      <Comment subject="mt.station.orientation.reference_frame">
+        <Value>geographic</Value>
+      </Comment>
+      <Comment subject="mt.station.provenance.software.author">
+        <Value>none</Value>
+      </Comment>
+      <Comment subject="mt.station.run_list">
+        <Value>mt01a, mt01b</Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01a.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.acquired_by">
+        <Value></Value>
+      </Comment>
+      <Comment subject="mt.run:mt01b.metadata_by">
+        <Value></Value>
+      </Comment>
+      <Latitude unit="DEGREES">0.0</Latitude>
+      <Longitude unit="DEGREES">0.0</Longitude>
+      <Elevation unit="METERS">0.0</Elevation>
+      <Site>
+        <Name/>
+      </Site>
+      <Equipment resourceId="mt.run.id:mt01a">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Equipment resourceId="mt.run.id:mt01b">
+        <Type>BBMT</Type>
+        <Description>timing_system.type: GPS</Description>
+        <InstallationDate>2020-01-01T00:00:00+00:00</InstallationDate>
+        <RemovalDate>2021-01-01T12:00:00+00:00</RemovalDate>
+      </Equipment>
+      <Operator>
+        <Agency> </Agency>
+        <Contact>
+          <Name>none</Name>
+        </Contact>
+        <WebSite/>
+      </Operator>
+      <CreationDate>2020-01-01T00:00:00.000000Z</CreationDate>
+      <TerminationDate>2021-01-01T12:00:00.000000Z</TerminationDate>
+      <Channel code="QQN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ex" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QQE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ey" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Type>dipole</Type>
+          <Description>100.0 meters</Description>
+          <SerialNumber>positive: None, negative: None</SerialNumber>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFN" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hx" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hy" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QFZ" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="hz" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="QKE" startDate="2020-01-01T00:00:00+00:00" endDate="2021-01-01T12:00:00+00:00" restrictedStatus="open" alternateCode="ty" locationCode="">
+        <Comment subject="mt.run.id">
+          <Value>mt01a</Value>
+        </Comment>
+        <Comment subject="mt.run.id">
+          <Value>mt01b</Value>
+        </Comment>
+        <Latitude unit="DEGREES">0.0</Latitude>
+        <Longitude unit="DEGREES">0.0</Longitude>
+        <Elevation unit="METERS">0.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate>0.0</SampleRate>
+        <CalibrationUnits>
+          <Name>unknown</Name>
+          <Description>unknown</Description>
+        </CalibrationUnits>
+        <Sensor/>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100.0</Value>
+            <Frequency>1.0</Frequency>
+            <InputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>unknown</Name>
+              <Description>unknown</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros name="filter_02">
+              <Description>poles and zeros filter</Description>
+              <InputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>unknown</Name>
+                <Description>unknown</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">1.0</NormalizationFrequency>
+            </PolesZeros>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>1.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>
